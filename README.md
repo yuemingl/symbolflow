@@ -11,7 +11,7 @@ try (Graph g = new Graph()) {
 	//MyTensor Y = trans(A) * X + B; //Exception in thread "main" java.lang.IllegalArgumentException: 1 inputs specified of 2 inputs in Op while building NodeDef 'A_trans' using Op<name=Transpose; signature=x:T, perm:Tperm -> y:T; attr=T:type; attr=Tperm:type,default=DT_INT32,allowed=[DT_INT32, DT_INT64]>
 	Y.buildGraph(g);
 
-	// Execute the "Y = A * X" operation in a Session.
+	// Execute the "Y = A * X + B" operation in a Session.
 	try (Session s = new Session(g)) {
 		Output feedX = g.operation("X").output(0);
 		Output fetch = g.operation(Y.getName()).output(0);
