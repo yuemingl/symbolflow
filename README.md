@@ -1,4 +1,5 @@
 # symbolflow
+SymbolFlow is a java wrapper of Google TensorFlow. A tensor graph can be created using operator overloading in Java [java-oo](https://github.com/amelentev/java-oo).
 
 ```java
 public static void main(String[] args) throws Exception {
