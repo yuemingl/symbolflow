@@ -1,8 +1,8 @@
-package test.operations;
+package symbolflow.operations;
 
 import org.tensorflow.Graph;
 
-import test.core.MyTensor;
+import symbolflow.core.MyTensor;
 
 public class Add extends MyTensor {
 	MyTensor l;

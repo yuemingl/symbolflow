@@ -1,4 +1,4 @@
-package test.core;
+package symbolflow.core;
 
 import java.lang.reflect.Array;
 

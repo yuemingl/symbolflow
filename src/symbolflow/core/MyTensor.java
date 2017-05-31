@@ -1,11 +1,11 @@
-package test.core;
+package symbolflow.core;
 
 import org.tensorflow.DataType;
 import org.tensorflow.Graph;
 import org.tensorflow.Output;
 
-import test.operations.Add;
-import test.operations.Mul;
+import symbolflow.operations.Add;
+import symbolflow.operations.Mul;
 
 public class MyTensor {
 	protected String name;

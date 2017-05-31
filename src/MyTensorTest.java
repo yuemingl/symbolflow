@@ -4,9 +4,9 @@ import org.tensorflow.Output;
 import org.tensorflow.Session;
 import org.tensorflow.Tensor;
 
-import test.core.MyConstTensor;
-import test.core.MyTensor;
-import static test.operations.Trans.*;
+import symbolflow.core.MyConstTensor;
+import symbolflow.core.MyTensor;
+import static symbolflow.operations.Trans.*;
 
 public class MyTensorTest {
 	public static void main(String[] args) throws Exception {
